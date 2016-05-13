@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Weipeng He</title><link href="http://hwp.github.io/" rel="alternate"></link><link href="http://hwp.github.io/feeds/learn.atom.xml" rel="self"></link><id>http://hwp.github.io/</id><updated>2016-05-13T17:04:00+02:00</updated><entry><title>Quotes</title><link href="http://hwp.github.io/quotes.html" rel="alternate"></link><published>2016-05-13T17:04:00+02:00</published><author><name>Weipeng He</name></author><id>tag:hwp.github.io,2016-05-13:quotes.html</id><summary type="html">&lt;p&gt;不记下来就会忘记：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;我们不幸生活在一个充满意识形态的时代，而意识形态都非常自信，对自己愚蠢的理论非常执著，对狭隘的真理契而不舍，他们理解的世界救赎就是世界由他们来主宰。&lt;/dt&gt;
+&lt;dd&gt;--阿尔贝·加缪&lt;/dd&gt;
+&lt;dt&gt;自由无价，生命有涯，宁为玉碎，以殉中华。&lt;/dt&gt;
+&lt;dd&gt;--林昭&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/blockquote&gt;
+</summary></entry></feed>
