@@ -23,7 +23,46 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="http://hwp.github.io/targets.html">Targets</a></h1>
+                    <h1 class="entry-title"><a href="http://hwp.github.io/install-ros-indigo-on-fedora-24.html">Install ROS indigo on Fedora 24</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2017-01-11T00:00:00+01:00">
+                Published: Wed 11 January 2017
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://hwp.github.io/author/weipeng-he.html">Weipeng He</a>
+        </address>
+<p>In <a href="http://hwp.github.io/category/misc.html">misc</a>.</p>
+
+</footer><!-- /.post-info --><p>This guide is based on the [official documentation](<a class="reference external" href="http://wiki.ros.org/Installation/Source">http://wiki.ros.org/Installation/Source</a>). It is not very different except this guide provide a (complete) list of packages that can be installed from dnf.</p>
+<div class="section" id="procedure">
+<h2>Procedure</h2>
+<pre class="literal-block">
+$ sudo dnf install cmake gcc-c++ python-empy console-bridge-devel poco-devel boost-devel eigen3-devel urdfdom-devel gtest-devel sip-devel tinyxml-devel qt-devel python-qt5-devel PyQt4-devel curl-devel lz4-devel libjpeg-turbo-devel fltk-devel libtool-ltdl-devel opencv-devel qhull-devel assimp-devel uuid-devel libuuid-devel yaml-cpp-devel collada-dom-devel pcl-devel gtk2-devel gazebo-devel python-netifaces
+$ sudo dnf install python-rosdep python-rosinstall_generator python-wstool python-rosinstall
+$ mkdir ~/ros_catkin_ws &amp;&amp; cd ~/ros_catkin_ws
+$ rosinstall_generator desktop_full --rosdistro indigo --deps --wet-only --tar &gt; indigo-desktop-full-wet.rosinstall
+$ wstool init -j8 src indigo-desktop-full-wet.rosinstall
+$ rosdep install --from-paths src --ignore-src --rosdistro indigo -y
+$ ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release -DASSIMP_UNIFIED_HEADER_NAMES=ON
+</pre>
+<p>And it's done!</p>
+<p>Let me know if it doesn't work.</p>
+</div>
+                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://hwp.github.io/targets.html" rel="bookmark"
+                           title="Permalink to Targets">Targets</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2016-11-07T00:00:00+01:00">
                 Published: Mon 07 November 2016
@@ -34,7 +73,7 @@
         </address>
 <p>In <a href="http://hwp.github.io/category/misc.html">misc</a>.</p>
 
-</footer><!-- /.post-info --><div class="section" id="conferences">
+</footer><!-- /.post-info -->                <div class="section" id="conferences">
 <h2>Conferences</h2>
 <ul class="simple">
 <li>IROS</li>
@@ -55,8 +94,12 @@
 <li>IEEE Transactions on Audio, Speech and Language Processing</li>
 </ul>
 </div>
-                </article>
-            </aside><!-- /#featured -->
+
+                <a class="readmore" href="http://hwp.github.io/targets.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+                </section><!-- /#content -->
         <section id="extras" class="body">
                 <div class="social">
                         <h2>social</h2>
