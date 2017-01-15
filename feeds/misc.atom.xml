@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Weipeng He</title><link href="http://hwp.github.io/" rel="alternate"></link><link href="http://hwp.github.io/feeds/misc.atom.xml" rel="self"></link><id>http://hwp.github.io/</id><updated>2017-01-11T00:00:00+01:00</updated><entry><title>Install ROS indigo on Fedora 24</title><link href="http://hwp.github.io/install-ros-indigo-on-fedora-24.html" rel="alternate"></link><published>2017-01-11T00:00:00+01:00</published><author><name>Weipeng He</name></author><id>tag:hwp.github.io,2017-01-11:install-ros-indigo-on-fedora-24.html</id><summary type="html">&lt;p&gt;This guide is based on the &lt;a class="reference external" href="http://wiki.ros.org/Installation/Source"&gt;official documentation&lt;/a&gt;. It is not very different except this guide provide a (complete) list of packages that can be installed from dnf.&lt;/p&gt;
-&lt;div class="section" id="procedure"&gt;
-&lt;h2&gt;Procedure&lt;/h2&gt;
-&lt;pre class="literal-block"&gt;
-$ sudo dnf install cmake gcc-c++ python-empy console-bridge-devel poco-devel boost-devel eigen3-devel urdfdom-devel gtest-devel sip-devel tinyxml-devel qt-devel python-qt5-devel PyQt4-devel curl-devel lz4-devel libjpeg-turbo-devel fltk-devel libtool-ltdl-devel opencv-devel qhull-devel assimp-devel uuid-devel libuuid-devel yaml-cpp-devel collada-dom-devel pcl-devel gtk2-devel gazebo-devel python-netifaces
-$ sudo dnf install python-rosdep python-rosinstall_generator python-wstool python-rosinstall
-$ mkdir ~/ros_catkin_ws &amp;amp;&amp;amp; cd ~/ros_catkin_ws
-$ rosinstall_generator desktop_full --rosdistro indigo --deps --wet-only --tar &amp;gt; indigo-desktop-full-wet.rosinstall
-$ wstool init -j8 src indigo-desktop-full-wet.rosinstall
-$ rosdep install --from-paths src --ignore-src --rosdistro indigo -y
-$ ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release -DASSIMP_UNIFIED_HEADER_NAMES=ON
-&lt;/pre&gt;
-&lt;p&gt;And it's done!&lt;/p&gt;
-&lt;p&gt;Let me know if it doesn't work.&lt;/p&gt;
-&lt;/div&gt;
-</summary></entry><entry><title>Targets</title><link href="http://hwp.github.io/targets.html" rel="alternate"></link><published>2016-11-07T00:00:00+01:00</published><author><name>Weipeng He</name></author><id>tag:hwp.github.io,2016-11-07:targets.html</id><summary type="html">&lt;div class="section" id="conferences"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Weipeng He</title><link href="http://hwp.github.io/" rel="alternate"></link><link href="http://hwp.github.io/feeds/misc.atom.xml" rel="self"></link><id>http://hwp.github.io/</id><updated>2016-11-07T00:00:00+01:00</updated><entry><title>Targets</title><link href="http://hwp.github.io/targets.html" rel="alternate"></link><published>2016-11-07T00:00:00+01:00</published><author><name>Weipeng He</name></author><id>tag:hwp.github.io,2016-11-07:targets.html</id><summary type="html">&lt;div class="section" id="conferences"&gt;
 &lt;h2&gt;Conferences&lt;/h2&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;IROS&lt;/li&gt;
