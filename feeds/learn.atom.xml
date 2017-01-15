@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Weipeng He</title><link href="http://hwp.github.io/" rel="alternate"></link><link href="http://hwp.github.io/feeds/learn.atom.xml" rel="self"></link><id>http://hwp.github.io/</id><updated>2016-05-13T17:04:00+02:00</updated><entry><title>Quotes</title><link href="http://hwp.github.io/quotes.html" rel="alternate"></link><published>2016-05-13T17:04:00+02:00</published><author><name>Weipeng He</name></author><id>tag:hwp.github.io,2016-05-13:quotes.html</id><summary type="html">&lt;p&gt;不记下来就会忘记：&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Weipeng He</title><link href="http://hwp.github.io/" rel="alternate"></link><link href="http://hwp.github.io/feeds/learn.atom.xml" rel="self"></link><id>http://hwp.github.io/</id><updated>2016-11-07T00:00:00+01:00</updated><entry><title>Targets</title><link href="http://hwp.github.io/targets.html" rel="alternate"></link><published>2016-11-07T00:00:00+01:00</published><author><name>Weipeng He</name></author><id>tag:hwp.github.io,2016-11-07:targets.html</id><summary type="html">&lt;div class="section" id="conferences"&gt;
+&lt;h2&gt;Conferences&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;IROS&lt;/li&gt;
+&lt;li&gt;ICRA&lt;/li&gt;
+&lt;li&gt;HRI&lt;/li&gt;
+&lt;li&gt;ROBIO&lt;/li&gt;
+&lt;li&gt;CVPR&lt;/li&gt;
+&lt;li&gt;ICCV&lt;/li&gt;
+&lt;li&gt;ECCV&lt;/li&gt;
+&lt;li&gt;ICASSP&lt;/li&gt;
+&lt;li&gt;INTERSPEECH&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="journals"&gt;
+&lt;h2&gt;Journals&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;PAMI&lt;/li&gt;
+&lt;li&gt;IEEE Transactions on Audio, Speech and Language Processing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Quotes</title><link href="http://hwp.github.io/quotes.html" rel="alternate"></link><published>2016-05-13T17:04:00+02:00</published><author><name>Weipeng He</name></author><id>tag:hwp.github.io,2016-05-13:quotes.html</id><summary type="html">&lt;p&gt;不记下来就会忘记：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;我们不幸生活在一个充满意识形态的时代，而意识形态都非常自信，对自己愚蠢的理论非常执著，对狭隘的真理契而不舍，他们理解的世界救赎就是世界由他们来主宰。&lt;/dt&gt;
