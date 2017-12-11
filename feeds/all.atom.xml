@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>ZZBBOOTTPPQQ</title><link href="http://hwp.github.io/" rel="alternate"></link><link href="http://hwp.github.io/feeds/all.atom.xml" rel="self"></link><id>http://hwp.github.io/</id><updated>2017-09-27T00:00:00+02:00</updated><entry><title>f001</title><link href="http://hwp.github.io/f001.html" rel="alternate"></link><published>2017-09-27T00:00:00+02:00</published><updated>2017-09-27T00:00:00+02:00</updated><author><name>Weipeng He</name></author><id>tag:hwp.github.io,2017-09-27:f001.html</id><summary type="html">&lt;p&gt;今天读到&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>ZZBBOOTTPPQQ</title><link href="http://hwp.github.io/" rel="alternate"></link><link href="http://hwp.github.io/feeds/all.atom.xml" rel="self"></link><id>http://hwp.github.io/</id><updated>2017-09-27T00:00:00+02:00</updated><entry><title>f001</title><link href="http://hwp.github.io/f001.html" rel="alternate"></link><published>2017-09-27T00:00:00+02:00</published><updated>2017-09-27T00:00:00+02:00</updated><author><name>hwp</name></author><id>tag:hwp.github.io,2017-09-27:f001.html</id><summary type="html">&lt;p&gt;今天读到&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;对于爱情上的事情，我知之不多，仅知道约会、亲吻和疲倦罢了。&lt;/dt&gt;
@@ -28,7 +28,7 @@
 &lt;li&gt;IEEE Transactions on Audio, Speech and Language Processing&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Quotes</title><link href="http://hwp.github.io/quotes.html" rel="alternate"></link><published>2016-05-13T17:04:00+02:00</published><updated>2016-05-13T17:04:00+02:00</updated><author><name>Weipeng He</name></author><id>tag:hwp.github.io,2016-05-13:quotes.html</id><summary type="html">&lt;p&gt;不记下来就会忘记：&lt;/p&gt;
+</summary></entry><entry><title>Quotes</title><link href="http://hwp.github.io/quotes.html" rel="alternate"></link><published>2016-05-13T17:04:00+02:00</published><updated>2016-05-13T17:04:00+02:00</updated><author><name>hwp</name></author><id>tag:hwp.github.io,2016-05-13:quotes.html</id><summary type="html">&lt;p&gt;不记下来就会忘记：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;我们不幸生活在一个充满意识形态的时代，而意识形态都非常自信，对自己愚蠢的理论非常执著，对狭隘的真理契而不舍，他们理解的世界救赎就是世界由他们来主宰。&lt;/dt&gt;
